@@ -32,12 +32,12 @@ public:
 	/**
 	* A helper method to calculate h.
 	*/
-	VectorXd Tools::Calculateh(const VectorXd &x_state);
+	VectorXd Calculateh(const VectorXd &x_state);
 
 	/**
 	* A helper method to ConvertPolarToCartesian.
 	*/
-	VectorXd Tools::ConvertPolarToCartesian(const VectorXd &raw_measurements_);
+	VectorXd ConvertPolarToCartesian(const VectorXd &raw_measurements_);
 
 };
 
